@@ -2,7 +2,7 @@ syntax = "proto3";
 option go_package = "pb";
 
 
-import "google/protobuf/timestamp.proto";
+import "github.com\golang\protobuf\timestamp.proto";
 import "moderator.proto";
 
 message Profile {
@@ -17,7 +17,6 @@ message Profile {
     bool vendor                            = 8;
     bool moderator                         = 9;
     Moderator moderatorInfo                = 10;
-
     Contact contactInfo                    = 11;
     Colors colors                          = 12;
 
@@ -35,6 +34,8 @@ message Profile {
     google.protobuf.Timestamp lastModified = 17;
 
     repeated string currencies             = 18;
+
+    string GPS                             = 19;
 
     message Contact {
         string website                = 1;
