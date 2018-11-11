@@ -38,6 +38,7 @@ type Profile struct {
 	BitcoinPubkey        string               `protobuf:"bytes,16,opt,name=bitcoinPubkey,proto3" json:"bitcoinPubkey,omitempty"`
 	LastModified         *timestamp.Timestamp `protobuf:"bytes,17,opt,name=lastModified,proto3" json:"lastModified,omitempty"`
 	Currencies           []string             `protobuf:"bytes,18,rep,name=currencies,proto3" json:"currencies,omitempty"`
+	GPS                  string               `protobuf:"bytes,19,opt,name=GPS,proto3" json:"GPS,omitempty"`
 	XXX_NoUnkeyedLiteral struct{}             `json:"-"`
 	XXX_unrecognized     []byte               `json:"-"`
 	XXX_sizecache        int32                `json:"-"`
@@ -191,6 +192,13 @@ func (m *Profile) GetCurrencies() []string {
 		return m.Currencies
 	}
 	return nil
+}
+
+func (m *Profile) GetGPS() string {
+	if m != nil {
+		return m.GPS
+	}
+	return ""
 }
 
 type Profile_Contact struct {
