@@ -1,6 +1,6 @@
-# openbazaar-go
+# openbazaar-go C4C MOD
 ![banner](https://i.imgur.com/iOnXDXK.png)
-OpenBazaar Server Daemon in Go
+OpenBazaar C4C MOD Server Daemon in Go
 
 [![Build Status](https://travis-ci.org/OpenBazaar/openbazaar-go.svg?branch=master)](https://travis-ci.org/OpenBazaar/openbazaar-go)
 [![Coverage Status](https://coveralls.io/repos/github/OpenBazaar/openbazaar-go/badge.svg?branch=master)](https://coveralls.io/github/OpenBazaar/openbazaar-go?branch=master)
@@ -44,7 +44,7 @@ We are using a [fork](https://github.com/OpenBazaar/go-ipfs) of go-ipfs in the d
 
 ## Updating
 
-You can either pull in remote changes as normal or run `go get -u github.com/OpenBazaar/openbazaar-go`.
+You can either pull in remote changes as normal or run `go get -u github.com/9z25/openbazaar-go`.
 
 ## Usage
 
