@@ -1,4 +1,4 @@
-# openbazaar-go C4C MOD
+# Coins4Cash (for Promotional Use Only)
 ![banner](https://i.imgur.com/iOnXDXK.png)
 OpenBazaar C4C MOD Server Daemon in Go
 
