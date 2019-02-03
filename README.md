@@ -1,5 +1,5 @@
 # Coins4Cash (for Promotional Use Only)
-![banner](https://i.imgur.com/iOnXDXK.png)
+
 OpenBazaar C4C MOD Server Daemon in Go
 
 [![Build Status](https://travis-ci.org/OpenBazaar/openbazaar-go.svg?branch=master)](https://travis-ci.org/OpenBazaar/openbazaar-go)
